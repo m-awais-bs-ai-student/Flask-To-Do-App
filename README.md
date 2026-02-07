@@ -28,24 +28,4 @@ FLASK/
 
 ## 🛠️ Installation & Setup
 
-Follow these steps to get your development environment ready and the application running.
-
-### 1. Prerequisites
-Ensure you have **Python 3.x** installed on your machine. You can verify this by running:
-```bash
-python --version
-
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
-
-# For Windows (VS Code / PowerShell)
-python -m venv venv
-.\venv\Scripts\activate
-
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-
-pip install -r requirements.txt
-
-python app.py
+<details> <summary><b>📂 Click to view Full Installation & Setup Guide</b></summary>
