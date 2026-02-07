@@ -1,2 +1,27 @@
-# Flask-To-Do-App
-This is a clean and efficient Task Management App developed using the Flask framework. It utilizes Flask-SQLAlchemy for robust database interactions, allowing users to create, read, update and delete tasks. Showcases best practices for database integration, context handling, and form management.
+# Flask TODO Application
+
+A professional, lightweight To-Do List web application built with the **Flask** micro-framework. This project demonstrates core web development concepts including CRUD operations, database management with SQLite, and dynamic template rendering.
+
+---
+
+## 🚀 Features
+
+* **Task Management:** Create, view, and update tasks via a clean web interface.
+* **Persistent Storage:** Uses a SQLite database located in the `instance/` folder.
+* **Template Inheritance:** Utilizes Jinja2 for a modular frontend structure (`base.html`).
+* **Static Asset Management:** Organized directory for CSS, JavaScript, and other assets.
+
+---
+
+## 📁 Project Structure
+
+```text
+FLASK/
+├── instance/           # Database storage (TODO.db)
+├── static/             # Assets (CSS, JS, Images)
+├── templates/          # HTML files
+│   ├── base.html       # Parent layout
+│   ├── index.html      # Main dashboard
+│   └── update.html     # Task editing page
+├── app.py              # Application logic and routing
+└── requirements.txt    # Project dependencies
