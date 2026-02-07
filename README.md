@@ -26,24 +26,24 @@ FLASK/
 ├── app.py              # Application logic and routing
 └── requirements.txt    # Project dependencies
 
-1️⃣ Clone the Repository: Copy and paste this into your terminal to download your project:
+1️⃣ **Clone the Repository:** Copy and paste this into your terminal to download your project:
 git clone https://github.com/m-awais-bs-ai-student/Flask-To-Do-App.git cd Flask-To-Do-App
 
-2️⃣ Environment Setup
+2️⃣ **Environment Setup**
 Create and activate your virtual environment to keep your global Python clean:
-Create the environment:
+**Create the environment:**
 python -m venv venv
 
-Activate it (Windows):
+**Activate it (Windows):**
 .\venv\Scripts\activate
 
-## Activate it (Mac/Linux)
+**Activate it (Mac/Linux)**
 source venv/bin/activate
 
-3️⃣ Install Necessary Packages
+3️⃣ **Install Necessary Packages**
 Install everything needed to run the app from your requirements.txt:
 pip install -r requirements.txt
 
-4️⃣ Run the App
+4️⃣ **Run the App**
 Start your Flask server:
 python app.py
