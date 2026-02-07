@@ -25,7 +25,3 @@ FLASK/
 │   └── update.html     # Task editing page
 ├── app.py              # Application logic and routing
 └── requirements.txt    # Project dependencies
-
-## 🛠️ Installation & Setup
-
-<details> <summary><b>📂 Click to view Full Installation & Setup Guide</b></summary>
